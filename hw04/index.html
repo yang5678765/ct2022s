@@ -20,11 +20,19 @@
 			/* font-family: 'cjkFonts 全瀨體';	Strong Baseline 字型檔 */
 			font-family: 'StrongFont';
 		}
-		@font-face {
+		/* @font-face {
 			font-family: MyHelvetica;
-			src: local("Kfont"), url(Kfont.ttf);	/* 改成自己的 Simple & Medium Baseline 字型檔 */
-			src: local("StrongFont"), url(StrongFont.ttf);	/* Strong Baseline 字型檔 */
+			src: local("Kfont"), url(Kfont.ttf);	改成自己的 Simple & Medium Baseline 字型檔
+			src: local("StrongFont"), url(StrongFont.ttf);	Strong Baseline 字型檔
 			font-weight: bold;
+		} */
+		@font-face {
+			font-family: Kfont;
+			src: url(Kfont.ttf);
+		}
+		@font-face {
+			font-family: StrongFont;
+			src: url(https://github.com/Circle472/ct2022s/raw/main/hw04/StrongFont.ttf);
 		}
 		a:visited { color: #0000EE; }
 		a:hover { color: #FF5151; }
